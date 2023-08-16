@@ -1,0 +1,476 @@
+body {
+    background-color: #fff;
+    margin: 0px;
+    margin-right: -100px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+ ::-webkit-scrollbar-track-piece {
+    background-color: #09435d;
+}
+
+ ::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #f68e34;
+}
+
+
+/* Basic Style Start */
+
+.shadow {
+    box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, 1);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.w-3 {
+    width: 30%;
+}
+
+.w-7 {
+    width: 70%;
+}
+
+.c-radius {
+    border-radius: 100%;
+}
+
+.w-2 {
+    width: 10%;
+}
+
+.w-8 {
+    width: 85%;
+    max-width: 1024px !important;
+}
+
+
+/* Basic Style end */
+
+.container {
+    display: inline;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+
+.dogzy-text-div {
+    text-align: left;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.dogzy-text {
+    background-color: #0361a1;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border-radius: 15px 15px 15px 0px;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+}
+
+.dogzy-user-div {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.dogzy-user {
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: right;
+    border-radius: 15px 15px 0px 15px;
+    color: #fff;
+    background-color: #f68e34;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.dogzy-user-option:hover {
+    cursor: pointer;
+}
+
+.dogzy-gif {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+    max-height: 300px;
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+/* 
+.dogzy-user-div {
+    margin-right: -30px;
+}
+
+.dogzy-text-div {
+    margin-left: -5px;
+} */
+
+.dogzy-user-option {
+    border-radius: 15px 15px 15px 15px;
+    margin-right: 0px;
+    word-wrap: break-word;
+}
+
+.dogzy-user-option-p {
+    text-align: center;
+}
+
+.dogzy-user-option-div {
+    margin: 15px 15px 15px 0px;
+}
+
+
+/* Slider START */
+
+.owl-carousel {
+    max-width: 900px;
+    position: relative;
+}
+
+.owl-prev {
+    position: absolute;
+    top: 38%;
+    left: 0%;
+}
+
+.owl-next {
+    position: absolute;
+    top: 38%;
+    right: 0%;
+}
+
+.height-width {
+    min-height: 250px;
+    min-width: 250px;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.item {
+    border: solid 5px #0362a133;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: hidden !important;
+}
+
+.center-text {
+    z-index: 90 !important;
+    position: absolute;
+    top: 30%;
+    /* left: 40%; */
+    color: #f68f34;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.slider-bg-1 {
+    background-image: url('items/BFSI.svg');
+}
+
+.slider-bg-2 {
+    background-image: url('items/Warehouse.svg');
+}
+
+.slider-bg-3 {
+    background-image: url('items/Healthcare.svg');
+}
+
+.slider-bg-4 {
+    background-image: url('items/Restaurant.svg');
+}
+
+.slider-bg-5 {
+    background-image: url('items/Retail.svg');
+}
+
+.slider-bg-6 {
+    background-image: url('items/Industrial.svg');
+}
+
+.slider-bg-7 {
+    background-image: url('items/Manufacturing.svg');
+}
+
+.slider-bg-8 {
+    background-image: url('items/Hospitality.svg');
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.452);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+
+/* Slider ENND */
+
+
+/* Message Box CSS Start */
+
+.message_div,
+.mobile_div,
+.email_div {
+    width: 100%;
+    text-align: center;
+    background-color: #0361a1;
+    color: #fff;
+    border-radius: 15px 15px 15px 0px;
+    word-wrap: break-word;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.mobile_div_inner,
+.email_div_inner {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.message_title,
+.mobile_title {
+    margin: 5px 0px;
+}
+
+.email_title {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.message_textarea,
+.mobile_input,
+.email_input {
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(247, 245, 245);
+    width: 90%;
+    height: 150px;
+    outline: none;
+    padding: 10px;
+}
+
+.mobile_input,
+.email_input {
+    border-radius: 5px 0px 0px 5px;
+    height: auto;
+    width: 80%;
+    border: 0px solid #fff !important;
+}
+
+.mobile_input::placeholder,
+.email_submit::placeholder {
+    text-align: start;
+}
+
+.message_submit,
+.mobile_submit,
+.email_submit {
+    width: 96%;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 0px 0px 5px 5px;
+    color: #fff;
+    background-color: #f68e34;
+    word-wrap: break-word;
+    font-weight: 700;
+    font-size: 25px;
+    outline: none;
+    border: 2px solid #fff;
+}
+
+.mobile_submit,
+.email_submit {
+    width: 15%;
+    margin-bottom: 0px;
+    height: auto;
+    border-radius: 0px 5px 5px 0px;
+}
+
+::placeholder {
+    color: rgba(145, 145, 145, 0.781);
+    word-wrap: break-word;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: start;
+}
+
+.dogzy-user-div>p {
+    float: right;
+    width: 70%;
+}
+
+
+/* Message Box CSS End */
+
+
+/* Responsive FOR 425 TO 0 Start */
+
+@media screen and (min-width:1025px) {
+    .dogzy-text-div,
+    .message_div,
+    .mobile_div,
+    .email_div,
+    .dogzy-user-div>p,
+    .dogzy-user-option-p {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .dogzy-text-div,
+    .dogzy-user-option-p {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .dogzy-user-option-p,
+    .dogzy-text-div,
+    .dogzy-user-div>p {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .dogzy-text-div,
+    .dogzy-user-option-p,
+    .dogzy-user-div>p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .dogzy-text,
+    .message_div,
+    .mobile_div,
+    .email_div,
+    .dogzy-user {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:356px) {
+    .dogzy-text,
+    .message_div,
+    .mobile_div,
+    .email_div,
+    .dogzy-user {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .dogzy-text,
+    .message_div,
+    .mobile_div,
+    .email_div,
+    .dogzy-user {
+        font-size: 12px;
+    }
+}
+
+
+/* Responsive FOR 425 TO 0 End*/
+
+
+/* Back BTN Start */
+
+.main-row {
+    padding-bottom: 50px;
+}
+
+.back-btn-section {
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+}
+
+.back-btn,
+.back_loading {
+    margin-top: 10px;
+    color: #f68e34;
+    background-color: #fff;
+    word-wrap: break-word;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+
+
+/* Back BTN End */
+
+
+/* Undefined Start */
+
+
+/* .undefined {
+    background-color: red;
+} */
+
+
+/* Undefined End */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Number Arrow remove */
+
+
+/* Additional CSS to validation error Start */
+
+.invalid_email,
+.invalid_mobile {
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    color: #f68e34;
+}
+
+
+/* Additional CSS to validation error End */
