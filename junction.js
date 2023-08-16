@@ -728,7 +728,6 @@ setInterval(async function () {
                                                                         case 2.1111:
                                                                             stop_loop(2.1111);
                                                                             common_back_cmd()
-                                                                            console.log('AI-Based Security & Monitoring')
                                                                             indus_second_Step('AI-Based Security & Monitoring')
                                                                             scroll_down()
                                                                             break;
@@ -736,21 +735,18 @@ setInterval(async function () {
                                                                         case 2.1112:
                                                                             common_back_cmd()
                                                                             stop_loop(2.1112);
-                                                                            console.log('Acess Control & Perimeter Guarding')
                                                                             indus_second_Step('Acess Control & Perimeter Guarding')
                                                                             scroll_down()
                                                                             break;
                                                                         case 2.1113:
                                                                             common_back_cmd()
                                                                             stop_loop(2.1113);
-                                                                            console.log('Pilferage Control')
                                                                             indus_second_Step('Pilferage Control')
                                                                             scroll_down()
                                                                             break;
                                                                         case 2.1114:
                                                                             common_back_cmd()
                                                                             stop_loop(2.1114);
-                                                                            console.log('People Management')
                                                                             indus_second_Step('People Management')
                                                                             scroll_down()
                                                                             break;
@@ -758,7 +754,6 @@ setInterval(async function () {
                                                                             common_back_cmd()
                                                                             stop_loop(2.1115);
                                                                             progress_reach = 2.11151
-                                                                            console.log('Other')
                                                                             scroll_down()
                                                                             switch (progress_reach) {
                                                                                 case 2.11151:
@@ -990,9 +985,7 @@ setInterval(async function () {
                                                                                                     setInterval(async function () {
                                                                                                         switch (progress_reach) {
                                                                                                             case 2.121111:
-                                                                                                                console.log('Write your Query OUTSIDE the IF structure')
                                                                                                                 // if (phone > 10000000 && phone < 99999999999999) {
-                                                                                                                console.log('inside if of Phone in 2.121111');
                                                                                                                 stop_loop(2.121111);
                                                                                                                 stop_loop(2.121111);
                                                                                                                 $('.phone_skip').click(write_your_query_phone)
@@ -1010,8 +1003,6 @@ setInterval(async function () {
                                                                                                                         dogzy_text_a('Phone Number');
                                                                                                                         await sleep()
                                                                                                                         dogzy_user(phone);
-                                                                                                                        console.log('Write your Query INSIDE the IF structure')
-                                                                                                                        console.log(phone);
                                                                                                                         phone = undefined;
                                                                                                                         after_ex()
                                                                                                                         scroll_down()
@@ -1085,8 +1076,6 @@ setInterval(async function () {
                                                             setInterval(async function () {
                                                                 switch (progress_reach) {
                                                                     case 2.1311:
-                                                                        console.log('Call jassi PE OUTSIDE the IF structure')
-                                                                        console.log('inside if of Phone')
                                                                         stop_loop(2.1311);
                                                                         $('.call_jassi_expert').click(call_jassi_expert_phone)
                                                                         mobile_input.addEventListener("keyup", async function (event) {
@@ -1101,8 +1090,6 @@ setInterval(async function () {
                                                                                 $('.mobile_div').hide();
                                                                                 await sleep()
                                                                                 dogzy_user(phone);
-                                                                                console.log('Call jassi PE INSIDE the IF structure')
-                                                                                console.log(phone);
                                                                                 phone = undefined;
                                                                                 after_ex()
                                                                                 scroll_down()
@@ -1146,7 +1133,6 @@ setInterval(async function () {
                                     await sleep()
                                     dogzy_user_option('I am Intersted', 'IamIntersted');
                                     resp('I am Intersted', 'IamIntersted', 2);
-                                    console.log(progress_reach)
                                     scroll_down()
                                     break;
                             }
